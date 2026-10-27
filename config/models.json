@@ -1,0 +1,80 @@
+[
+  {
+    "id": "th_v1",
+    "name": "ไทย v1 (แนะนำ)",
+    "note": "โมเดลไทยหลัก อ่านไทยดี บางครั้งข้ามคำหรือพูดซ้ำ",
+    "repo": "VIZINTZOR/F5-TTS-THAI", "file": "model_1000000.pt",
+    "arch": "v1", "vocab": "thai", "ipa": false, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "edge",
+    "name": "Microsoft Edge TTS (ออนไลน์)",
+    "note": "เสียงสำเร็จรูปของ Microsoft (ผู้ชาย = นิวัฒน์, ผู้หญิง = เปรมวดี) ไม่ใช่เสียงโคลน ชัดและเร็ว ต้องต่อเน็ต ไม่ใช้การ์ดจอ",
+    "type": "edge", "thai": false, "ipa": false, "size_mb": 0
+  },
+  {
+    "id": "th_v2",
+    "name": "ไทย v2 IPA",
+    "note": "แปลงข้อความเป็นเสียงอ่าน (IPA) ก่อน ช่วยลดการข้ามคำ/พูดซ้ำ",
+    "repo": "VIZINTZOR/F5-TTS-TH-V2", "file": "model_350000.pt",
+    "arch": "v2", "vocab": "thai_ipa", "ipa": true, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "th_v2_250k",
+    "name": "ไทย v2 IPA รุ่นก่อน (250k)",
+    "note": "v2 ที่เทรนน้อยกว่า",
+    "repo": "VIZINTZOR/F5-TTS-TH-V2", "file": "model_250000.pt",
+    "arch": "v2", "vocab": "thai_ipa", "ipa": true, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "th_v1_850k",
+    "name": "ไทย v1 รุ่นเก่า (850k)",
+    "note": "รุ่นก่อนของ v1",
+    "repo": "VIZINTZOR/F5-TTS-THAI", "file": "old_small_model/model_850000.pt",
+    "arch": "v1", "vocab": "thai", "ipa": false, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "th_v1_650k",
+    "name": "ไทย v1 รุ่นเก่า (650k)",
+    "note": "รุ่นก่อนของ v1",
+    "repo": "VIZINTZOR/F5-TTS-THAI", "file": "old_small_model/model_650000.pt",
+    "arch": "v1", "vocab": "thai", "ipa": false, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "th_v1_600k",
+    "name": "ไทย v1 รุ่นเก่า (600k)",
+    "note": "รุ่นก่อนของ v1",
+    "repo": "VIZINTZOR/F5-TTS-THAI", "file": "old_small_model/model_600000.pt",
+    "arch": "v1", "vocab": "thai", "ipa": false, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "th_v1_500k",
+    "name": "ไทย v1 รุ่นเก่า (500k)",
+    "note": "รุ่นก่อนของ v1",
+    "repo": "VIZINTZOR/F5-TTS-THAI", "file": "old_small_model/model_500000.pt",
+    "arch": "v1", "vocab": "thai", "ipa": false, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "th_v1_250k",
+    "name": "ไทย v1 รุ่นเก่า (250k)",
+    "note": "รุ่นแรก ๆ ของ v1",
+    "repo": "VIZINTZOR/F5-TTS-THAI", "file": "old_small_model/model_250000.pt",
+    "arch": "v1", "vocab": "thai", "ipa": false, "thai": true, "size_mb": 1349
+  },
+  {
+    "id": "orig_v1",
+    "name": "ต้นฉบับ F5-TTS v1 (อังกฤษ/จีน)",
+    "note": "โมเดลต้นฉบับจาก SWivid อ่านไทยไม่ได้ ใช้พิมพ์ภาษาอังกฤษ",
+    "repo": "SWivid/F5-TTS", "file": "F5TTS_v1_Base/model_1250000.safetensors",
+    "arch": "v2", "vocab": {"repo": "SWivid/F5-TTS", "file": "F5TTS_v1_Base/vocab.txt"},
+    "ipa": false, "thai": false, "size_mb": 1348
+  },
+  {
+    "id": "orig_base",
+    "name": "ต้นฉบับ F5-TTS Base (อังกฤษ/จีน)",
+    "note": "โมเดลต้นฉบับรุ่นแรกจาก SWivid อ่านไทยไม่ได้ ใช้พิมพ์ภาษาอังกฤษ",
+    "repo": "SWivid/F5-TTS", "file": "F5TTS_Base/model_1200000.safetensors",
+    "arch": "v1", "vocab": {"repo": "SWivid/F5-TTS", "file": "F5TTS_Base/vocab.txt"},
+    "ipa": false, "thai": false, "size_mb": 1349
+  }
+]

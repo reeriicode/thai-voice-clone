@@ -1,0 +1,9 @@
+# Versions tested together. Always install with:  pip install ... -c constraints.txt
+torch==2.8.0+cu126
+torchaudio==2.8.0+cu126
+numpy==1.26.4          # F5-TTS-THAI needs numpy < 2
+datasets==3.6.0        # newer datasets needs pyarrow >= 24, which needs numpy 2
+pyarrow==19.0.1
+pydantic==2.10.6       # F5-TTS-THAI pins pydantic <= 2.10.6
+gradio==5.50.0         # F5-TTS-THAI UI code breaks on Gradio 6
+edge-tts==7.3.1

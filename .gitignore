@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Heavy models (downloaded automatically, or put there by you)
+models/downloaded/
+models/whisper/
+models/custom/*
+!models/custom/README.txt
+
+# Your own voices stay private: only the example voices are shared
+voices/*
+!voices/README.md
+!voices/female/
+!voices/example_male/
+
+# Your saved settings, recordings, and generated audio
+config/settings.json
+data/
+outputs/
+
+# Local tooling / caches
+.bin/
+wheels/
+tools-venv/
+third_party/
+F5-TTS-THAI/
+*.log
+.claude/

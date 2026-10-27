@@ -1,0 +1,13 @@
+# PyTorch (CUDA build) is installed separately by setup.bat.
+# Install with:  pip install -r requirements.txt -c constraints.txt
+
+# F5-TTS Thai voice cloning (pinned commit)
+f5-tts-thai @ git+https://github.com/VYNCX/F5-TTS-THAI.git@7b0989f5f67378cdea12a117e140c11ac0a9f57d
+
+gradio==5.50.0           # web app (F5-TTS-THAI code expects Gradio 5)
+edge-tts==7.3.1          # Microsoft Edge TTS backend
+faster-whisper>=1.1      # speech to text
+huggingface_hub          # model downloads
+soundfile
+librosa
+imageio-ffmpeg           # ffmpeg binary for non-WAV audio
